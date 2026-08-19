@@ -1,7 +1,7 @@
 # TSMusicBot — Docker Compose
 # 一键部署：docker-compose pull && docker-compose up -d
 #
-# 默认从 GitHub Container Registry 拉取预构建镜像（amd64 + arm64），
+# 默认从你的 GitHub Container Registry 拉取预构建镜像（amd64 + arm64），
 # 无需本地编译，无需 Node.js / 构建工具链。
 # 镜像内置：Node.js, FFmpeg, Opus 编码器，原生模块均已交叉编译。
 #
@@ -10,7 +10,7 @@
 
 services:
   tsmusicbot:
-    image: ghcr.io/zhangtianyao1/teamspeak-music-bot:latest
+    image: ghcr.io/fengjiazhe/teamspeak-music-bot:latest
     container_name: tsmusicbot
     # Use host network so the bot can reach TS3 server on LAN
     # If your TS3 server is on the same machine, this is required
