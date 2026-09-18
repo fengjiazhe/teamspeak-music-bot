@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar frosted-glass">
-    <RouterLink to="/" class="logo">TSMusicBot</RouterLink>
+    <RouterLink to="/" class="logo">DoveMatrix Music</RouterLink>
 
     <div class="nav-links">
       <RouterLink to="/" class="nav-link" active-class="active">发现</RouterLink>
